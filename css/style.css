@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-image: url(https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?t=st=1728146831~exp=1728150431~hmac=e6682a6b2ec45fddcf44d39577497e5a31bc50c042e13807113bdeca816a3f35&w=826);
+}
+
+.dropdown .menu-bar{
+  display: none;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+/* body{
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
+} */
+
+.topbar {
+  background-color: #0f1824;
+  padding: 5px 10px;
+}
+
+.topbar a {
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.topbar a:hover {
+  color: #00efed;
+}
+
+.navbar .menu {
+  margin-right: 2rem;
+}
+
+.navbar img {
+  height: 7rem;
+  margin-left: 2rem;
+}
+
+.navbar {
+  background-color: #0f1824;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+ul li {
+  margin: 1rem;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.pricing-plan img {
+  height: 100vh;
+}
+
+.pricing-plan {
+  display: flex;
+  justify-content: center;
+  background-color: #13072e !important;
+  margin: 3rem 0 !important;
+}
+
+.web-design,
+.uiux-design,
+.order-now,
+.item2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 2rem 2rem;
+}
+
+.web-design-content,
+.uiux-content,
+.order-now-content {
+  color: white !important;
+  width: 100%;
+}
+
+.web-design-content p,
+.uiux-content p,
+.order-now-content p {
+  font-size: 1rem;
+  text-align: justify;
+  text-align-last: justify;
+}
+.web-design-content h4,
+.uiux-content h4,
+.order-now-content h4 {
+  font-weight: bold;
+}
+
+.web-design img,
+.uiux-design img,
+.order-now img {
+  height: 60vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-banner img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.order-now-photo img {
+  height: 80vh;
+}
+
+.footer-section {
+  background-color: #0f1824;
+}
+
+.footer img {
+  height: 8rem;
+}
+
+.footer img {
+  height: 8rem;
+  margin-left: 35%;
+}
+
+.footer p,
+.footer h4,
+.footer img {
+  text-align: justify;
+  margin: 1rem 1rem;
+}
+
+.f2 li,
+.f3 li,
+.f2,
+.f3 {
+  margin: 2rem 2rem;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer i {
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  color: #00fefb;
+}
+
+.footer,
+.pricing-plan {
+  cursor: pointer;
+}
+
+.contact-form,
+.header-section,
+.pricing-plan,
+.footer-section,
+.s1 {
+  /* margin: 3rem auto; */
+  border: 1px solid #00fefb;
+  color: #00fefb;
+  box-shadow: 5px 2px 5px 2px gray;
+  border-radius: 10px;
+  padding: 1rem 2rem 1rem;
+  font-size: 14px;
+  /* position: relative; */
+  background-color: #0f1824;
+  margin: auto;
+}
+
+.contact-form {
+  height: 60vh;
+  width: 340px;
+}
+
+.myinput {
+  display: block;
+  margin: 8px auto;
+  padding: 7px 60px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #b0fffe;
+}
+
+label,
+input,
+.btn {
+  margin: 1rem 1rem 1rem 0;
+}
+
+h2,
+h4 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.regbtn,
+.contactbtn {
+  margin: 5px 32%;
+  padding: 3px 12px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(77, 77, 77);
+  border: none;
+}
+
+.regbtn:hover,
+.contactbtn:hover {
+  background-color: #00fefb;
+  color: black;
+}
+
+p {
+  font-size: 12px;
+  /* margin: 12px 25%; */
+  cursor: pointer;
+  font-style: italic;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #00fefb;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?t=st=1728146831~exp=1728150431~hmac=e6682a6b2ec45fddcf44d39577497e5a31bc50c042e13807113bdeca816a3f35&w=826);
+  }
+
+
+  .topbar {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .topbar i {
+    display: none;
+  }
+
+  .dropdown button {
+    font-size: 1.4rem;
+    border-radius: 10px;
+  }
+
+  .navbar ul {
+    display: block;
+  }
+
+  .dropdown .menu-bar{
+    display: block;
+  }
+
+  .dropdown .menu-bar {
+    position: relative;
+    padding: 1.2rem;
+  }
+
+  .dropdown .content {
+    display: none;
+    position: absolute;
+    right: 3rem;
+  }
+
+  .dropdown .content a {
+    background-color: black;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 5px;
+  }
+
+  .dropdown:hover .content {
+    display: block;
+  }
+
+  .main-banner img {
+    height: 10rem;
+  }
+
+  .web-design,
+  .uiux-design,
+  .order-now,
+  .item2 {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-plan img {
+    height: 30vh;
+  }
+
+  .web-design img,
+  .uiux-design img,
+  .order-now img {
+    height: auto;
+  }
+
+  .uiux-design {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
